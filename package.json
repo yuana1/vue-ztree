@@ -1,22 +1,20 @@
 {
   "name": "ztree-for-vue",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A Vue.2x component of ztree",
   "private": false,
-  "main": "src/lib/vue-ztree.vue",
+  "main": "src/vue-ztree.vue",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "docs:dev":"vuepress dev docs",
-    "docs:build":"vuepress build docs"
+    "lint": "vue-cli-service lint"
   },
   "repository": {
     "type": "git",
-    "url": "hhttps://github.com/arixse/vue-ztree.git"
+    "url": "hhttps://github.com/yuana1/vue-ztree.git"
   },
   "bug": {
-    "url": "https://github.com/arixse/vue-ztree/issues"
+    "url": "https://github.com/yuana1/vue-ztree/issues"
   },
   "keywords": [
     "vue",
@@ -29,19 +27,17 @@
   ],
   "author": "arixse",
   "dependencies": {
-     "@ztree/ztree_v3": "^3.5.42",
+    "@ztree/ztree_v3": "^3.5.42",
     "expose-loader": "^0.7.5",
     "jquery": "^3.4.1",
-    "vue": "^2.6.10"
+    "vue": "^2.6.11"
   },
   "license": "MIT",
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-rc.5",
-    "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
-    "@vue/cli-service": "^3.0.0-rc.5",
-    "vue-template-compiler": "^2.6.10",
-    "vuepress": "^1.0.1",
-    "ztree-for-vue": "^1.2.0"
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
     "root": true,
