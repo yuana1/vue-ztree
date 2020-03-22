@@ -115,7 +115,7 @@ export default {
                 callback:this.getEvents()
             }
         },
-        mounted() {
+        create() {
             if(this.treeNodes && this.treeNodes.length) {
                 this.ztree = $.fn.zTree.init($(this.getZtreeDom()),this.getTreeSettings(),this.treeNodes)
                 if(typeof this.treeName == 'string') {
