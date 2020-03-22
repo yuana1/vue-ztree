@@ -3,6 +3,10 @@
 </template>
 
 <script>
+require("expose-loader?jQuery!jquery");
+require("@ztree/ztree_v3/js/jquery.ztree.all");
+
+const $ = window.jQuery;
 // let $ = window.jQuery;
 // window.ztree = {};
 const callbacks = [
